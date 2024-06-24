@@ -1,0 +1,70 @@
+.add-audience-btn {
+  margin: 10px 1px;
+}
+
+.modular-block-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: transform 0.7 ease, border 0.3s ease;
+}
+
+.modular-block-mobile:hover {
+  border: 1px solid #6c5ce7; /* Replace with your secondary color */
+}
+.block-title {
+  // font-size: 16px;
+  // font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #475161 !important;
+  justify-content: space-between;
+}
+
+.reorder-buttons {
+  display: flex;
+  gap: 5px; /* Adjust the gap between buttons if needed */
+}
+
+.reorder-buttons .icon {
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  background: none;
+}
+
+.mobile-view-custom-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-view-custom-field-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.numOfField {
+  background: #f7f9fc;
+  border: 1px solid #dde3ee;
+  border-radius: 1rem;
+  color: #6e6b86;
+  font-size: 12px;
+  font-size: 0.75rem;
+  height: 24px;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5rem;
+}
